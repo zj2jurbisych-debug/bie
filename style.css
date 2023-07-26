@@ -164,3 +164,9 @@ a {
 img {
     margin-top: 129px;
 }
+
+@media screen and (max-width:466px) {
+    img {
+        width: 100vw;
+    }
+}
