@@ -1,0 +1,210 @@
+@font-face {
+    font-family: opposans4;
+    src: url(assets/fonts/OPPOSans4.0-VF.ttf);
+}
+
+body {
+    font-family: opposans4;
+    background-color: #F5F5F7;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root {
+    --theme-color: #FFD700;
+}
+
+/* 主题卡片 */
+div#themecard,div#themecard1 {
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+div.themebigtitle {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+div.themebigtitle h1 {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+/* 默认卡片 */
+div#cardfull,div#card {
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+div#card h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+div.mutibutton {
+    margin-top: 10px;
+}
+
+div#card p.subtitle {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+/* 组件 */
+p.more {
+    margin: 0;
+    margin-top: 16px;
+}
+p.more a {
+    text-decoration: none;
+    color: var(--theme-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-weight: 600;
+}
+
+div.button {
+    background-color: var(--theme-color);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+div.button a {
+    text-decoration: none;
+    color: white;
+
+}
+
+div.mutibutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.pic {
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+div.spot {
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+div.spot h3 {
+    margin: 0;
+    font-size: 25px
+}
+div.spot p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+div.texts {
+    margin-left: 6px;
+}
+
+div.themebigtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#themecard1 .themebigtitle {
+    display: block;
+}
+
+div.back {
+    background-color: var(--theme-color);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 10px;
+    text-decoration: none;
+}
+div.back a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 语录区 */
+div.sayings {
+    margin-top: 15px;
+}
+
+div.saying {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F7;
+    padding: 20px 24px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 13px;
+}
+
+div.under {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.saying p.saying {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 0 0;
+}
+
+div.saying button {
+    background-color: var(--theme-color);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 3px 12px;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+div.copy p {
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+    div.page {
+        width: 700px;
+    }
+}
